@@ -1,5 +1,6 @@
-import './style.css';
-import app from './app'
+import "./style.css";
+import app from "./app";
 
-const appDiv = document.querySelector('#app');
+// "root" node element
+const appDiv = document.querySelector("#app");
 app(appDiv);
