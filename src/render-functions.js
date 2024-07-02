@@ -73,3 +73,7 @@ export const renderNewUser = (newUserEl, newUser) => {
 
 	newUserEl.append(h2, p, p2);
 };
+/* FEEDBACK:
+ * There really isn't much flexibility in this file. The tests pretty much want you to do it this way.
+ * great job figuring out how to satisfy the tests.
+ */

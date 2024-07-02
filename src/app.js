@@ -61,3 +61,8 @@ export default async function app(appDiv) {
 		event.target.reset();
 	});
 }
+/* FEEDBACK:
+ * This is just a style choice, but you could have written the callback in a module and then imported it here, 
+ * this would have made it more readable. Overeall, this is solid, 
+ * and you have a good understanding of how to use async/await, fetch and DOM manipulation.
+ */
